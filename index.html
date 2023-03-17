@@ -1,23 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moda</title>
+    <style>
+      /* Stili per il layout della pagina */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      nav {
+        background-color: #f2f2f2;
+        overflow: hidden;
+      }
+      nav a {
+        float: left;
+        color: #333;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      nav a:hover {
+        background-color: #ddd;
+        color: #333;
+      }
+      main {
+        padding: 20px;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      /* Stili per la versione mobile */
+      @media only screen and (max-width: 600px) {
+        nav a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>Moda</h1>
-    <p>Benvenuti nella pagina dedicata alla moda!</p>
-    <h2>Tendenze del momento</h2>
-    <ul>
-      <li>Vestiti con stampe floreali</li>
-      <li>Scarpe con la zeppa</li>
-      <li>Jeans a vita alta</li>
-    </ul>
-    <h2>Consigli di stile</h2>
-    <ol>
-      <li>Scegli capi che valorizzino la tua figura</li>
-      <li>Gioca con gli accessori per personalizzare il tuo look</li>
-      <li>Non avere paura di osare con i colori</li>
-    </ol>
+    <header>
+      <h1>Moda</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Donna</a>
+      <a href="#">Uomo</a>
+      <a href="#">Bambini</a>
+      <a href="#">Accessori</a>
+    </nav>
+    <main>
+      <h2>Tendenze del momento</h2>
+      <ul>
+        <li>Vestiti con stampe floreali</li>
+        <li>Scarpe con la zeppa</li>
+        <li>Jeans a vita alta</li>
+      </ul>
+      <h2>Consigli di stile</h2>
+      <ol>
+        <li>Scegli capi che valorizzino la tua figura</li>
+        <li>Gioca con gli accessori per personalizzare il tuo look</li>
+        <li>Non avere paura di osare con i colori</li>
+      </ol>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023 Moda.
+        All rights reserved.</p>
+    </footer>
   </body>
 </html>
 
