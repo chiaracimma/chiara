@@ -63,7 +63,7 @@
 
 	<!-- barra di navigazione -->
 	<div class="navbar">
-		<img src="logo.png">
+		<img src="https://i.pinimg.com/736x/7b/5f/d9/7b5fd9f074cf1ec3709271398dcf653a.jpg">
 		<a href="#home">Home</a>
 		<a href="#about">About</a>
 		<a href="#contact">Contact</a>
