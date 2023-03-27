@@ -63,7 +63,10 @@
 
 	<!-- barra di navigazione -->
 	<div class="navbar">
-		<img src="logo.png">
+		<img 
+		src="https://img.freepik.com/premium-vector/minimal-fashion-logo-with-elegant-style-leaf_278222-3165.jpg"
+		style="width:150px;height:50px;" 
+		alt="immagine">
 		<a href="#home">Home</a>
 		<a href="#about">About</a>
 		<a href="#contact">Contact</a>
