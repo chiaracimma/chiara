@@ -8,7 +8,9 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="./fontawesome/css/fontawesome.css" rel="stylesheet">
+<link href="./fontawesome/css/brands.css" rel="stylesheet">
+<link href="./fontawesome/css/solid.css" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css" integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -17,6 +19,7 @@
 <link rel="stylesheet" href="style.css">
 
 </head>
+
  <body>
 
 <div class="header">
@@ -25,13 +28,14 @@
   </div>
    <ul class="menu">
      <li><a href="">Home</a></li>
-     <li><a href="">Donna</a></li>
-     <li><a href="">Uomo</a></li>
-     <li><a href="">Accessori</a></li>
-      <li><a href="">Tendenze</a></li>
+     <li><a href="#moda">Donna</a></li>
+     <li><a href="#moda">Uomo</a></li>
+     <li><a href="#accessori">Accessori</a></li>
+      <li><a href="#tendenze">Tendenze</a></li>
    </ul>
+
   <div class="cta">
-    <a href="" class="button"> Contatti</a>
+    <a href="#footer-main" class="button"> Contatti</a>
   </div>
    <div class="hamburger">
      <span></span>
@@ -51,100 +55,219 @@
 </div>
 
 
+<div class="slider">
+    <div class="slide-track">
+      <div class="slide">
+        <img src="immagine1.png">
+      </div>
+      <div class="slide">
+        <img src="immagine2.png">
+      </div>
+      <div class="slide">
+        <img src="immagine3.png">
+      </div>
+      <div class="slide">
+        <img src="immagine4.png">
+      </div>
+      <div class="slide">
+        <img src="immagine5.png">
+      </div>
+      <div class="slide">
+        <img src="immagine6.png">
+      </div>
+      <div class="slide">
+        <img src="immagine7.png">
+      </div>
+      <div class="slide">
+        <img src="immagine8.png">
+      </div>
+      <div class="slide">
+        <img src="immagine9.png">
+      </div>
+
+    <div class="slide">
+      <img src="immagine10.png">
+    </div>
+    <div class="slide">
+      <img src="immagine11.png">
+    </div>
+    <div class="slide">
+      <img src="immagine12.png">
+    </div>
+    <div class="slide">
+      <img src="immagine13.png">
+    </div>
+    <div class="slide">
+      <img src="immagine14.png">
+    </div>
+    <div class="slide">
+      <img src="immagine15.png">
+    </div>
+    <div class="slide">
+      <img src="immagine16.png">
+    </div>
+    <div class="slide">
+      <img src="immagine17.png">
+    </div>
+    <div class="slide">
+      <img src="immagine18.png">
+    </div>
+  </div>
+</div>
 
 
 
 
-<div class="poster mt-1">
+
+
+<div id="moda" class="poster">
   <div class="poster__img">
      <img src="moda donna.jpg" alt="">
+     <div class="overlay">
+        <div class="text_overlay">DONNA</div>
+     </div>
   </div>
   <div class="poster__img">
     <img src="moda uomo.jpg" alt="">
+    <div class="overlay">
+      <div class="text_overlay">UOMO</div>
+   </div>
   </div>
 </div>
 
 <div class="poster">
   <div class="poster__img">
      <img src="denim.jpg" alt="">
+     <div class="overlay">
+      <div class="text_overlay">DENIM LOVER</div>
+   </div>
   </div>
   <div class="poster__img">
     <img src="party.jpg" alt="">
+    <div class="overlay">
+      <div class="text_overlay">PARTY COLLECTION</div>
+   </div>
   </div>
 </div>
 
 
-<div class="bg-cover mt-2">
+<div id="accessori" class="bg-cover mt-2">
   <div class="bg-cover__title">
     <h3 class="big-text tw">Accessori</h3>
   </div>
   <div class="bg-cover__text">
 
-    <h4 class="normal-text tw">Titolo paragrafo</h4>
-    <p class="tw">testo paragrafo</p>
-
-    <h4 class="normal-text tw">Titolo paragrafo</h4>
-    <p class="tw">testo paragrafo</p>
-
-    <h4 class="normal-text tw">Titolo paragrafo</h4>
-    <p class="tw">testo paragrafo</p>
-
+    <a href="#"><h4 class="normal-text tw">BORSE E ZAINI</h4></a>
+    <a href="#"><h4 class="normal-text tw">SCARPE</h4></a>
+    <a href="#"><h4 class="normal-text tw">PELLETTERIA</h4></a>
+    <a href="#"><h4 class="normal-text tw">OCCHIALI</h4></a>
+    <a href="#"><h4 class="normal-text tw">PROFUMI</h4></a>
   </div>
 </div>
 
-<div class="grid">
+<div id="tendenze" class="grid">
   <div class="col">
     <h3 class="big-text mt-2">Le tendenze <br/> del momento</h3>
   </div>
   <div class="col">
-    <p class="mt-2">paragrafo del testo</p>
+    <!-- <p class="mt-2">paragrafo del testo</p> -->
   </div>
 </div>
 
 
 <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-  <div class="carousel-cell">  Text </div>
-  <div class="carousel-cell">  Text </div>
-  <div class="carousel-cell">  Text </div>
-  <div class="carousel-cell">  Text </div>
-  <div class="carousel-cell">  Text </div>
-  <div class="carousel-cell">  Text </div>
+  <div> <img src="righe.jpg" class="carousel-cell2" alt=""> </div>
+  <div> <img src="guanti.jpg" class="carousel-cell2" alt=""> </div>
+  <div> <img src="blazer crop.jpg" class="carousel-cell2" alt=""> </div>
+  <div> <img src="pelliccia.jpg" class="carousel-cell2" alt=""> </div>
+  <div> <img src="fiori.jpg" class="carousel-cell2" alt=""> </div>
+  <div> <img src="trench.jpg" class="carousel-cell2" alt=""> </div>
+</div>
+
+<div class="row">
+    <div class="column1">
+       <iframe class="yt-video" src="https://www.youtube.com/embed/Db3KInkw-Fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+       </iframe>
+    </div>
+    <div class="column2">
+        <h2>ALCUNI CONSIGLI PER TE</h2>
+        <p>
+
+            Non sai mai se quello che indossi è adatto a te? Vorresti capire quali sono
+          i colori che ti stanno meglio? Non preoccuparti! La nostra assistente virtuale ti aiuterà con qualche consiglio
+        di armocromia. Cosa aspetti? Scarica la guida completa!  </p>
+    </div>
+    <a href="" class="button">Scarica Guida</a>
 </div>
 
 
+<div class="google-maps mt-2">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.854385036771!2d8.613400911366405!3d45.45259037095304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47865a24573b9d29%3A0x5064224377bd31e3!2sVia%20Costantino%20Porta%2C%2025%2C%2028100%20Novara%20NO!5e0!3m2!1sit!2sit!4v1687459003019!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+</div>
 
-    <footer class="footer mt-2">
-      <div class="container text-center">
+<footer id="footer-main">
+  <div class="footer-grid">
 
-        <div class="fot">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2798.854587066455!2d8.6137757!3d45.4525863!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47865a24573b9d29%3A0x5064224377bd31e3!2sVia%20Costantino%20Porta%2C%2025%2C%2028100%20Novara%20NO!5e0!3m2!1sen!2sit!4v1654440794287!5m2!1sen!2sit" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
-        </div>
+        <section class="footer-1">
+          <h4 class="footer-title">Location</h4>
+            <p>Novara (Italy), via C. Porta 25</p>
+        </section>
 
-        <div class="fot">
-          <p id="testofooter">
-            <i class="material-icons" style="font-size:15px; color: #FF0000;">location</i>  Novara (Italy), via C. Porta 25<br>
-            <i class="material-icons" style="font-size:15px; color: #FF0000;">contatti</i>  (+39) 015627101 / 3420789512 <br>
-            <i class="material-icons" style="font-size:15px; color: #FF0000;">email</i>  chiaracimmabrand@gmail.it<br>
-          </p>
-        </div>
+       <section class="footer-2">
+          <h4 class="footer-title">Contatti</h4>
+            <p>(+39) 015627101 / 3420789512 <br>
+            chiaracimmabrand@gmail.it</p>
+        </section>
 
-        <div class="fot">
-          <div id="rimandosocial">
-            <h4 style="text-align:center;color: #fff ">Seguici anche sui social!</h4>
-            <a href="#" class="social"><i class="instagram" style="font-size:45px;color: #fff;"></i></a>
-            <a href="#" class="social"><i class="facebook-f" style="font-size:45px;color: #fff;"></i></a>
-            <a href="#" class="social"><i class="twitter" style="font-size:45px;color: #fff;"></i></a>
-            <p>Copyright &copy; 2023 ChiaraCimma.
-       All rights reserved.</p>
-          </div>
+       <section class="footer-3">
+          <h4 class="footer-title">Social</h4>
+           <i class="fa-brands fa-instagram fa-2xl"></i>
+           <i class="fa-brands fa-facebook fa-2xl"></i>
+           <i class="fa-brands fa-twitter fa-2xl"></i>
+       </section>
+
+   </div>
+
+   <div class="copy">
+      <p>Copyright &copy; 2023 ChiaraCimma. All rights reserved.</p>
+   </div>
+
+</footer>
+
+<!--
+<footer class="footer">
+    <div class="container text-center">
+      <div class="fot">
+        <p id="testofooter">
+          <i class="material-icons" style="font-size:15px; color: #FF0000;">location</i>  Novara (Italy), via C. Porta 25<br>
+          <i class="material-icons" style="font-size:15px; color: #FF0000;">contatti</i>  (+39) 015627101 / 3420789512 <br>
+          <i class="material-icons" style="font-size:15px; color: #FF0000;">email</i>  chiaracimmabrand@gmail.it<br>
+        </p>
+      </div>
+
+      <div class="fot">
+        <div id="rimandosocial">
+          <h4 style="text-align:center;color: #fff ">Seguici anche sui social!</h4>
+          <p>Copyright &copy; 2023 ChiaraCimma.
+      All rights reserved.</p>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
+-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"> ⇧</button>
 
 
-
-
-
+<div id="cookiePopup" class="hide">
+    <img src="cookie.png" />
+    <p>
+      Our website uses cookies to provide your browsing experience and
+      relevant information. Before continuing to use our website, you agree &
+      accept of our <a href="#">Cookie Policy & Privacy.</a>
+    </p>
+    <button id="acceptCookie">Accept</button>
+</div>
 
 
 <!-- Jquery -->
@@ -152,16 +275,9 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script>
-  $( document ).ready(function() {
+<script src="./script.js"></script>
 
-   /* Open Panel */
-   $( ".hamburger" ).on('click', function() {
-     $(".menu").toggleClass("menu--open");
-   });
-
-  });
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
