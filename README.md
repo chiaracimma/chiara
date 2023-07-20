@@ -3,6 +3,8 @@ Si tratta di un sito web riguardante il mio brand di abbigliamento e accessori. 
 Una caratteristica del mio sito riguarda l'utilizzo dell'intelligenza artificiale, infatti ho realizzato un video attraverso il quale un avatar può dare qualche consiglio di stile ai miei clienti.
 
 
+
+
 Cimma Chiara
 
 Anno accademico 2022/2023
